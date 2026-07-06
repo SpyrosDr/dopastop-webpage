@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "DopaStop – Datenschutzerklärung"
+  },
+  "last_updated_label": {
+    "message": "Zuletzt aktualisiert"
+  },
+  "intro": {
+    "message": "DopaStop ist eine Chrome-Erweiterung, die ablenkende Medien unscharf macht und es dir ermöglicht, Zeitlimits oder Ruhezeiten für Websites festzulegen. Diese Seite erklärt, welche Daten DopaStop verarbeitet und wie."
+  },
+  "section_stores_heading": {
+    "message": "Was DopaStop speichert"
+  },
+  "stores_intro": {
+    "message": "Alle unten genannten Daten werden ausschließlich lokal auf deinem eigenen Gerät über die integrierten Speicher-APIs von Chrome (chrome.storage.sync und chrome.storage.local) gespeichert. Es werden keine Daten an Server von uns oder Dritten gesendet."
+  },
+  "stores_item_settings": {
+    "message": "Einstellungen — deine Unschärfe-Einstellungen, Whitelist-Websites, Zeitlimits pro Website, Ruhezeiten-Zeitplan und Sprachauswahl."
+  },
+  "stores_item_usage": {
+    "message": "Nutzungsdaten — für Websites, die du zum Verfolgen oder Begrenzen ausgewählt hast, speichert DopaStop den Domainnamen (z. B. „youtube.com“) und die Anzahl der Sekunden, die du heute auf dieser Website verbracht hast, um deine Limits durchzusetzen und den Tab „Nutzung“ anzuzeigen. Dieser Zähler wird jeden Tag automatisch zurückgesetzt."
+  },
+  "section_notdo_heading": {
+    "message": "Was DopaStop nicht tut"
+  },
+  "notdo_item_1": {
+    "message": "Es sendet keine Daten an einen externen Server. Es gibt kein Backend — alles läuft ausschließlich in deinem Browser."
+  },
+  "notdo_item_2": {
+    "message": "Es verkauft, vermietet oder teilt deine Daten nicht mit Dritten."
+  },
+  "notdo_item_3": {
+    "message": "Es verwendet deine Daten nicht für Werbung oder für Zwecke, die nichts mit der Kernfunktion (Unschärfe/Limits) der Erweiterung zu tun haben."
+  },
+  "notdo_item_4": {
+    "message": "Es zeichnet keine Seiteninhalte, Suchanfragen, Formulareingaben oder sonstige Eingaben auf."
+  },
+  "section_permissions_heading": {
+    "message": "Berechtigungen"
+  },
+  "permissions_intro": {
+    "message": "DopaStop fordert die folgenden Chrome-Berechtigungen an, die nur wie beschrieben verwendet werden:"
+  },
+  "permissions_item_storage": {
+    "message": "um deine Einstellungen und Nutzungszähler lokal zu speichern."
+  },
+  "permissions_item_alarms": {
+    "message": "um Ruhezeiten-Zeitpläne auch bei inaktiven Tabs regelmäßig zu prüfen."
+  },
+  "permissions_item_activetab": {
+    "message": "um den Unschärfeeffekt anzuwenden und Limits auf der jeweils angezeigten Seite durchzusetzen, da die Erweiterung auf jeder besuchten Website funktionieren muss."
+  },
+  "section_retention_heading": {
+    "message": "Datenspeicherung & Löschung"
+  },
+  "retention_body": {
+    "message": "Nutzungszähler werden jeden Tag automatisch zurückgesetzt. Alle gespeicherten Daten (Einstellungen und Nutzung) werden sofort gelöscht, wenn du die Erweiterung deinstallierst, oder können jederzeit über die Speichereinstellungen der Chrome-Erweiterung gelöscht werden."
+  },
+  "section_changes_heading": {
+    "message": "Änderungen dieser Richtlinie"
+  },
+  "changes_body": {
+    "message": "Falls sich diese Richtlinie ändert, wird die Aktualisierung auf dieser Seite mit einem aktualisierten Datum „Zuletzt aktualisiert“ veröffentlicht."
+  },
+  "section_contact_heading": {
+    "message": "Kontakt"
+  },
+  "contact_body": {
+    "message": "Fragen zu dieser Richtlinie oder der Erweiterung können gesendet werden an:"
+  },
+  "footer_link_text": {
+    "message": "Eintrag im Chrome Web Store"
+  },
+  "lang_picker_label": {
+    "message": "Sprache ändern"
+  }
+}

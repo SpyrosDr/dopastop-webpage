@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "Chính sách quyền riêng tư của DopaStop"
+  },
+  "last_updated_label": {
+    "message": "Cập nhật lần cuối"
+  },
+  "intro": {
+    "message": "DopaStop là một tiện ích mở rộng Chrome giúp làm mờ các phương tiện gây xao nhãng và cho phép bạn đặt giới hạn thời gian hoặc lịch trình nghỉ cho các trang web. Trang này giải thích dữ liệu nào DopaStop xử lý và bằng cách nào."
+  },
+  "section_stores_heading": {
+    "message": "Những gì DopaStop lưu trữ"
+  },
+  "stores_intro": {
+    "message": "Tất cả dữ liệu bên dưới được lưu trữ cục bộ trên thiết bị của riêng bạn bằng các API lưu trữ tích hợp sẵn của Chrome (chrome.storage.sync và chrome.storage.local). Không có dữ liệu nào được gửi đến bất kỳ máy chủ nào do chúng tôi hoặc bên thứ ba vận hành."
+  },
+  "stores_item_settings": {
+    "message": "Cài đặt — tùy chọn làm mờ, các trang web trong danh sách trắng, giới hạn thời gian theo từng trang web, lịch trình nghỉ và ngôn ngữ đã chọn."
+  },
+  "stores_item_usage": {
+    "message": "Dữ liệu sử dụng — đối với các trang web bạn đã chọn để theo dõi hoặc giới hạn, DopaStop ghi lại tên miền (ví dụ: \"youtube.com\") và số giây bạn đã dành cho trang web đó hôm nay, để thực thi giới hạn của bạn và hiển thị tab Sử dụng. Bộ đếm này tự động đặt lại mỗi ngày."
+  },
+  "section_notdo_heading": {
+    "message": "Những gì DopaStop không làm"
+  },
+  "notdo_item_1": {
+    "message": "Không gửi bất kỳ dữ liệu nào đến máy chủ bên ngoài. Không có backend — mọi thứ chạy và ở lại bên trong trình duyệt của bạn."
+  },
+  "notdo_item_2": {
+    "message": "Không bán, cho thuê hoặc chia sẻ dữ liệu của bạn với bên thứ ba."
+  },
+  "notdo_item_3": {
+    "message": "Không sử dụng dữ liệu của bạn cho mục đích quảng cáo hoặc bất kỳ mục đích nào không liên quan đến chức năng cốt lõi làm mờ/giới hạn của tiện ích."
+  },
+  "notdo_item_4": {
+    "message": "Không ghi lại nội dung trang, truy vấn tìm kiếm, dữ liệu biểu mẫu hoặc bất cứ điều gì bạn nhập."
+  },
+  "section_permissions_heading": {
+    "message": "Quyền"
+  },
+  "permissions_intro": {
+    "message": "DopaStop yêu cầu các quyền Chrome sau đây, chỉ được sử dụng như mô tả:"
+  },
+  "permissions_item_storage": {
+    "message": "để lưu cài đặt và bộ đếm sử dụng của bạn cục bộ."
+  },
+  "permissions_item_alarms": {
+    "message": "để kiểm tra định kỳ lịch trình nghỉ ngay cả trên các tab không hoạt động."
+  },
+  "permissions_item_activetab": {
+    "message": "để áp dụng hiệu ứng làm mờ và thực thi giới hạn trên trang bạn đang xem, vì tiện ích cần hoạt động trên bất kỳ trang web nào bạn truy cập."
+  },
+  "section_retention_heading": {
+    "message": "Lưu giữ và xóa dữ liệu"
+  },
+  "retention_body": {
+    "message": "Bộ đếm sử dụng tự động đặt lại mỗi ngày. Tất cả dữ liệu đã lưu trữ (cài đặt và sử dụng) sẽ bị xóa ngay lập tức nếu bạn gỡ cài đặt tiện ích, hoặc có thể được xóa bất cứ lúc nào thông qua cài đặt lưu trữ tiện ích của Chrome."
+  },
+  "section_changes_heading": {
+    "message": "Thay đổi đối với chính sách này"
+  },
+  "changes_body": {
+    "message": "Nếu chính sách này thay đổi, bản cập nhật sẽ được đăng trên trang này với ngày \"Cập nhật lần cuối\" đã sửa đổi."
+  },
+  "section_contact_heading": {
+    "message": "Liên hệ"
+  },
+  "contact_body": {
+    "message": "Các câu hỏi về chính sách này hoặc tiện ích có thể được gửi đến:"
+  },
+  "footer_link_text": {
+    "message": "Trang niêm yết trên Chrome Web Store"
+  },
+  "lang_picker_label": {
+    "message": "Đổi ngôn ngữ"
+  }
+}

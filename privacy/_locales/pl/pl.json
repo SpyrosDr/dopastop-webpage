@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "Polityka prywatności DopaStop"
+  },
+  "last_updated_label": {
+    "message": "Ostatnia aktualizacja"
+  },
+  "intro": {
+    "message": "DopaStop to rozszerzenie Chrome, które rozmywa rozpraszające media i pozwala ustawić limity czasu lub harmonogramy przerw dla stron internetowych. Ta strona wyjaśnia, jakie dane przetwarza DopaStop i w jaki sposób."
+  },
+  "section_stores_heading": {
+    "message": "Co przechowuje DopaStop"
+  },
+  "stores_intro": {
+    "message": "Wszystkie poniższe dane są przechowywane wyłącznie lokalnie na Twoim urządzeniu za pomocą wbudowanych interfejsów API pamięci Chrome (chrome.storage.sync i chrome.storage.local). Żadne dane nie są wysyłane na żaden serwer obsługiwany przez nas ani przez osoby trzecie."
+  },
+  "stores_item_settings": {
+    "message": "Ustawienia — Twoje preferencje rozmycia, strony na białej liście, limity czasu dla poszczególnych stron, harmonogram przerw i wybór języka."
+  },
+  "stores_item_usage": {
+    "message": "Dane o użytkowaniu — dla stron, które wybrałeś do śledzenia lub ograniczania, DopaStop zapisuje nazwę domeny (np. „youtube.com”) oraz liczbę sekund spędzonych dziś na tej stronie, aby egzekwować limity i wyświetlać kartę Użycie. Ten licznik jest automatycznie resetowany każdego dnia."
+  },
+  "section_notdo_heading": {
+    "message": "Czego DopaStop nie robi"
+  },
+  "notdo_item_1": {
+    "message": "Nie wysyła żadnych danych na zewnętrzny serwer. Nie ma backendu — wszystko działa i pozostaje wewnątrz Twojej przeglądarki."
+  },
+  "notdo_item_2": {
+    "message": "Nie sprzedaje, nie wynajmuje ani nie udostępnia Twoich danych osobom trzecim."
+  },
+  "notdo_item_3": {
+    "message": "Nie wykorzystuje Twoich danych do celów reklamowych ani żadnych celów niezwiązanych z podstawową funkcją rozmycia/limitów rozszerzenia."
+  },
+  "notdo_item_4": {
+    "message": "Nie rejestruje treści stron, zapytań wyszukiwania, danych formularzy ani niczego, co wpisujesz."
+  },
+  "section_permissions_heading": {
+    "message": "Uprawnienia"
+  },
+  "permissions_intro": {
+    "message": "DopaStop wymaga następujących uprawnień Chrome, wykorzystywanych wyłącznie w opisany sposób:"
+  },
+  "permissions_item_storage": {
+    "message": "aby zapisywać Twoje ustawienia i liczniki użycia lokalnie."
+  },
+  "permissions_item_alarms": {
+    "message": "aby okresowo sprawdzać harmonogramy przerw nawet na nieaktywnych kartach."
+  },
+  "permissions_item_activetab": {
+    "message": "aby stosować efekt rozmycia i egzekwować limity na przeglądanej stronie, ponieważ rozszerzenie musi działać na każdej odwiedzanej stronie."
+  },
+  "section_retention_heading": {
+    "message": "Przechowywanie i usuwanie danych"
+  },
+  "retention_body": {
+    "message": "Liczniki użycia są automatycznie resetowane każdego dnia. Wszystkie przechowywane dane (ustawienia i użycie) są natychmiast usuwane po odinstalowaniu rozszerzenia lub mogą zostać wyczyszczone w dowolnym momencie za pomocą ustawień pamięci rozszerzeń Chrome."
+  },
+  "section_changes_heading": {
+    "message": "Zmiany w niniejszej polityce"
+  },
+  "changes_body": {
+    "message": "Jeśli niniejsza polityka ulegnie zmianie, aktualizacja zostanie opublikowana na tej stronie wraz ze zaktualizowaną datą „Ostatnia aktualizacja”."
+  },
+  "section_contact_heading": {
+    "message": "Kontakt"
+  },
+  "contact_body": {
+    "message": "Pytania dotyczące niniejszej polityki lub rozszerzenia można kierować na adres:"
+  },
+  "footer_link_text": {
+    "message": "Wpis w Chrome Web Store"
+  },
+  "lang_picker_label": {
+    "message": "Zmień język"
+  }
+}

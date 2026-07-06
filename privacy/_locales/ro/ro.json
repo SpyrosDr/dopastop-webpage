@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "Politica de confidențialitate DopaStop"
+  },
+  "last_updated_label": {
+    "message": "Ultima actualizare"
+  },
+  "intro": {
+    "message": "DopaStop este o extensie Chrome care estompează conținutul media care distrage atenția și îți permite să setezi limite de timp sau programe de repaus pentru site-uri web. Această pagină explică ce date gestionează DopaStop și cum."
+  },
+  "section_stores_heading": {
+    "message": "Ce stochează DopaStop"
+  },
+  "stores_intro": {
+    "message": "Toate datele de mai jos sunt stocate local pe dispozitivul tău, folosind API-urile de stocare integrate ale Chrome (chrome.storage.sync și chrome.storage.local). Niciun fel de date nu sunt trimise către vreun server operat de noi sau de terți."
+  },
+  "stores_item_settings": {
+    "message": "Setări — preferințele tale de estompare, site-urile din lista albă, limitele de timp per site, programul de repaus și limba aleasă."
+  },
+  "stores_item_usage": {
+    "message": "Date de utilizare — pentru site-urile pe care ai ales să le urmărești sau să le limitezi, DopaStop înregistrează numele de domeniu (de ex. „youtube.com”) și numărul de secunde petrecute astăzi pe acel site, pentru a aplica limitele tale și a afișa fila Utilizare. Acest contor se resetează automat în fiecare zi."
+  },
+  "section_notdo_heading": {
+    "message": "Ce nu face DopaStop"
+  },
+  "notdo_item_1": {
+    "message": "Nu trimite date către niciun server extern. Nu există backend — totul rulează și rămâne în interiorul browserului tău."
+  },
+  "notdo_item_2": {
+    "message": "Nu vinde, nu închiriază și nu partajează datele tale cu terți."
+  },
+  "notdo_item_3": {
+    "message": "Nu folosește datele tale în scopuri publicitare sau în orice scop nelegat de funcția principală de estompare/limitare a extensiei."
+  },
+  "notdo_item_4": {
+    "message": "Nu înregistrează conținutul paginilor, căutările, datele din formulare sau orice altceva scrii."
+  },
+  "section_permissions_heading": {
+    "message": "Permisiuni"
+  },
+  "permissions_intro": {
+    "message": "DopaStop solicită următoarele permisiuni Chrome, utilizate doar așa cum este descris:"
+  },
+  "permissions_item_storage": {
+    "message": "pentru a salva local setările și contoarele de utilizare."
+  },
+  "permissions_item_alarms": {
+    "message": "pentru a verifica periodic programele de repaus chiar și pe filele inactive."
+  },
+  "permissions_item_activetab": {
+    "message": "pentru a aplica efectul de estompare și a impune limite pe pagina pe care o vizualizezi, deoarece extensia trebuie să funcționeze pe orice site pe care îl vizitezi."
+  },
+  "section_retention_heading": {
+    "message": "Păstrarea și ștergerea datelor"
+  },
+  "retention_body": {
+    "message": "Contoarele de utilizare se resetează automat în fiecare zi. Toate datele stocate (setări și utilizare) sunt șterse imediat dacă dezinstalezi extensia sau pot fi șterse oricând din setările de stocare ale extensiilor Chrome."
+  },
+  "section_changes_heading": {
+    "message": "Modificări ale acestei politici"
+  },
+  "changes_body": {
+    "message": "Dacă această politică se modifică, actualizarea va fi publicată pe această pagină cu o dată revizuită „Ultima actualizare”."
+  },
+  "section_contact_heading": {
+    "message": "Contact"
+  },
+  "contact_body": {
+    "message": "Întrebările despre această politică sau despre extensie pot fi trimise la:"
+  },
+  "footer_link_text": {
+    "message": "Fișa din Chrome Web Store"
+  },
+  "lang_picker_label": {
+    "message": "Schimbă limba"
+  }
+}

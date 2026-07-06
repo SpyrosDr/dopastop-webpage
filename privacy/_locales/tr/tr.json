@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "DopaStop Gizlilik Politikası"
+  },
+  "last_updated_label": {
+    "message": "Son güncelleme"
+  },
+  "intro": {
+    "message": "DopaStop, dikkat dağıtıcı medyayı bulanıklaştıran ve web siteleri için zaman sınırları veya kullanım dışı zaman programları belirlemenizi sağlayan bir Chrome uzantısıdır. Bu sayfa, DopaStop'un hangi verileri nasıl işlediğini açıklar."
+  },
+  "section_stores_heading": {
+    "message": "DopaStop nelerin saklar"
+  },
+  "stores_intro": {
+    "message": "Aşağıdaki tüm veriler, Chrome'un yerleşik depolama API'leri (chrome.storage.sync ve chrome.storage.local) kullanılarak yalnızca kendi cihazınızda yerel olarak saklanır. Hiçbir veri, bizim veya üçüncü tarafların işlettiği herhangi bir sunucuya gönderilmez."
+  },
+  "stores_item_settings": {
+    "message": "Ayarlar — bulanıklaştırma tercihleriniz, beyaz listeye eklenen siteler, site başına zaman sınırları, kullanım dışı programı ve dil seçimi."
+  },
+  "stores_item_usage": {
+    "message": "Kullanım verileri — izlemeyi veya sınırlamayı seçtiğiniz web siteleri için DopaStop, alan adını (ör. \"youtube.com\") ve bugün o sitede geçirilen saniye sayısını kaydeder; böylece sınırlarınızı uygulayabilir ve Kullanım sekmesini gösterebilir. Bu sayaç her gün otomatik olarak sıfırlanır."
+  },
+  "section_notdo_heading": {
+    "message": "DopaStop'un yapmadıkları"
+  },
+  "notdo_item_1": {
+    "message": "Hiçbir veriyi harici bir sunucuya göndermez. Bir arka uç (backend) yoktur — her şey tarayıcınızın içinde çalışır ve orada kalır."
+  },
+  "notdo_item_2": {
+    "message": "Verilerinizi üçüncü taraflarla satmaz, kiralamaz veya paylaşmaz."
+  },
+  "notdo_item_3": {
+    "message": "Verilerinizi reklam amacıyla veya uzantının temel bulanıklaştırma/sınırlama işleviyle ilgisi olmayan herhangi bir amaçla kullanmaz."
+  },
+  "notdo_item_4": {
+    "message": "Sayfa içeriğini, arama sorgularını, form girdilerini veya yazdığınız herhangi bir şeyi kaydetmez."
+  },
+  "section_permissions_heading": {
+    "message": "İzinler"
+  },
+  "permissions_intro": {
+    "message": "DopaStop, yalnızca açıklandığı şekilde kullanılan aşağıdaki Chrome izinlerini talep eder:"
+  },
+  "permissions_item_storage": {
+    "message": "ayarlarınızı ve kullanım sayaçlarınızı yerel olarak kaydetmek için."
+  },
+  "permissions_item_alarms": {
+    "message": "boşta olan sekmelerde bile kullanım dışı programlarını periyodik olarak kontrol etmek için."
+  },
+  "permissions_item_activetab": {
+    "message": "görüntülediğiniz sayfada bulanıklaştırma efektini uygulamak ve sınırları zorunlu kılmak için; çünkü uzantının ziyaret ettiğiniz her web sitesinde çalışması gerekir."
+  },
+  "section_retention_heading": {
+    "message": "Veri saklama ve silme"
+  },
+  "retention_body": {
+    "message": "Kullanım sayaçları her gün otomatik olarak sıfırlanır. Saklanan tüm veriler (ayarlar ve kullanım), uzantıyı kaldırdığınızda hemen silinir veya Chrome uzantı depolama ayarları aracılığıyla istediğiniz zaman temizlenebilir."
+  },
+  "section_changes_heading": {
+    "message": "Bu politikadaki değişiklikler"
+  },
+  "changes_body": {
+    "message": "Bu politika değişirse, güncelleme bu sayfada güncellenmiş bir \"Son güncelleme\" tarihiyle yayınlanacaktır."
+  },
+  "section_contact_heading": {
+    "message": "İletişim"
+  },
+  "contact_body": {
+    "message": "Bu politika veya uzantıyla ilgili sorular şu adrese gönderilebilir:"
+  },
+  "footer_link_text": {
+    "message": "Chrome Web Mağazası listesi"
+  },
+  "lang_picker_label": {
+    "message": "Dili değiştir"
+  }
+}

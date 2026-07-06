@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "Kebijakan Privasi DopaStop"
+  },
+  "last_updated_label": {
+    "message": "Terakhir diperbarui"
+  },
+  "intro": {
+    "message": "DopaStop adalah ekstensi Chrome yang mengaburkan media yang mengganggu dan memungkinkan Anda menetapkan batas waktu atau jadwal downtime untuk situs web. Halaman ini menjelaskan data apa yang ditangani DopaStop dan bagaimana caranya."
+  },
+  "section_stores_heading": {
+    "message": "Apa yang disimpan DopaStop"
+  },
+  "stores_intro": {
+    "message": "Semua data di bawah ini disimpan secara lokal di perangkat Anda sendiri menggunakan API penyimpanan bawaan Chrome (chrome.storage.sync dan chrome.storage.local). Tidak ada data yang dikirim ke server mana pun yang dioperasikan oleh kami atau pihak lain."
+  },
+  "stores_item_settings": {
+    "message": "Pengaturan — preferensi pengaburan Anda, situs dalam daftar putih, batas waktu per situs, jadwal downtime, dan pilihan bahasa."
+  },
+  "stores_item_usage": {
+    "message": "Data penggunaan — untuk situs web yang Anda pilih untuk dilacak atau dibatasi, DopaStop mencatat nama domain (misalnya \"youtube.com\") dan jumlah detik yang dihabiskan hari ini di situs tersebut, agar dapat menerapkan batas Anda dan menampilkan tab Penggunaan. Penghitung ini otomatis direset setiap hari."
+  },
+  "section_notdo_heading": {
+    "message": "Apa yang tidak dilakukan DopaStop"
+  },
+  "notdo_item_1": {
+    "message": "Tidak mengirim data apa pun ke server eksternal. Tidak ada backend — semuanya berjalan dan tetap berada di dalam browser Anda."
+  },
+  "notdo_item_2": {
+    "message": "Tidak menjual, menyewakan, atau membagikan data Anda kepada pihak ketiga."
+  },
+  "notdo_item_3": {
+    "message": "Tidak menggunakan data Anda untuk iklan atau tujuan apa pun yang tidak berkaitan dengan fungsi inti pengaburan/pembatasan ekstensi."
+  },
+  "notdo_item_4": {
+    "message": "Tidak mencatat konten halaman, kueri pencarian, data formulir, atau apa pun yang Anda ketik."
+  },
+  "section_permissions_heading": {
+    "message": "Izin"
+  },
+  "permissions_intro": {
+    "message": "DopaStop meminta izin Chrome berikut, yang hanya digunakan sebagaimana dijelaskan:"
+  },
+  "permissions_item_storage": {
+    "message": "untuk menyimpan pengaturan dan penghitung penggunaan Anda secara lokal."
+  },
+  "permissions_item_alarms": {
+    "message": "untuk memeriksa jadwal downtime secara berkala bahkan pada tab yang tidak aktif."
+  },
+  "permissions_item_activetab": {
+    "message": "untuk menerapkan efek pengaburan dan menegakkan batas pada halaman yang sedang Anda lihat, karena ekstensi perlu berfungsi di situs web mana pun yang Anda kunjungi."
+  },
+  "section_retention_heading": {
+    "message": "Retensi & penghapusan data"
+  },
+  "retention_body": {
+    "message": "Penghitung penggunaan otomatis direset setiap hari. Semua data yang disimpan (pengaturan dan penggunaan) segera dihapus jika Anda mencopot pemasangan ekstensi, atau dapat dihapus kapan saja melalui pengaturan penyimpanan ekstensi Chrome."
+  },
+  "section_changes_heading": {
+    "message": "Perubahan pada kebijakan ini"
+  },
+  "changes_body": {
+    "message": "Jika kebijakan ini berubah, pembaruan akan diposting di halaman ini dengan tanggal \"Terakhir diperbarui\" yang direvisi."
+  },
+  "section_contact_heading": {
+    "message": "Kontak"
+  },
+  "contact_body": {
+    "message": "Pertanyaan tentang kebijakan ini atau ekstensi dapat dikirim ke:"
+  },
+  "footer_link_text": {
+    "message": "Daftar di Chrome Web Store"
+  },
+  "lang_picker_label": {
+    "message": "Ubah bahasa"
+  }
+}

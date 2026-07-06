@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "DopaStop 私隱政策"
+  },
+  "last_updated_label": {
+    "message": "最後更新"
+  },
+  "intro": {
+    "message": "DopaStop 係一款 Chrome 擴充功能，可以將令人分心嘅媒體變得模糊，並且俾你可以為網站設定時間限制或者休息時間表。呢頁會解釋 DopaStop 處理咩資料同埋點樣處理。"
+  },
+  "section_stores_heading": {
+    "message": "DopaStop 會儲存啲咩"
+  },
+  "stores_intro": {
+    "message": "以下所有資料都只會用 Chrome 內置嘅儲存 API（chrome.storage.sync 同 chrome.storage.local）儲存喺你自己嘅裝置上。唔會有任何資料傳送去任何由我哋或者第三方營運嘅伺服器。"
+  },
+  "stores_item_settings": {
+    "message": "設定 — 你嘅模糊偏好設定、已加入白名單嘅網站、每個網站嘅時間限制、休息時間表，同埋語言選擇。"
+  },
+  "stores_item_usage": {
+    "message": "使用數據 — 對於你揀咗要追蹤或者限制嘅網站，DopaStop 會記錄域名（例如 \"youtube.com\"）同埋你今日喺嗰個網站花咗幾多秒，用嚟執行你嘅限制同埋喺「使用情況」分頁度顯示出嚟。呢個計數器每日都會自動重設。"
+  },
+  "section_notdo_heading": {
+    "message": "DopaStop 唔會做嘅嘢"
+  },
+  "notdo_item_1": {
+    "message": "佢唔會傳送任何資料去外部伺服器。冇後端（backend）——所有嘢都喺你嘅瀏覽器入面運行同保存。"
+  },
+  "notdo_item_2": {
+    "message": "佢唔會出售、出租或者同第三方分享你嘅資料。"
+  },
+  "notdo_item_3": {
+    "message": "佢唔會用你嘅資料嚟做廣告，或者用嚟做任何同擴充功能核心嘅模糊/限制功能無關嘅事。"
+  },
+  "notdo_item_4": {
+    "message": "佢唔會記錄頁面內容、搜尋字眼、表格輸入，或者你打字嘅任何內容。"
+  },
+  "section_permissions_heading": {
+    "message": "權限"
+  },
+  "permissions_intro": {
+    "message": "DopaStop 會要求以下 Chrome 權限，而且淨係會用喺下面講嘅用途："
+  },
+  "permissions_item_storage": {
+    "message": "用嚟將你嘅設定同使用計數器儲存喺本機。"
+  },
+  "permissions_item_alarms": {
+    "message": "用嚟定期檢查休息時間表，就算喺閒置分頁都會check。"
+  },
+  "permissions_item_activetab": {
+    "message": "用嚟喺你正在瀏覽嘅頁面度應用模糊效果同執行限制，因為呢個擴充功能需要喺你去嘅任何網站度都運作到。"
+  },
+  "section_retention_heading": {
+    "message": "資料保留同刪除"
+  },
+  "retention_body": {
+    "message": "使用計數器每日都會自動重設。如果你解除安裝呢個擴充功能，所有儲存嘅資料（設定同使用情況）都會即刻被刪除，或者你隨時都可以透過 Chrome 擴充功能儲存設定去清除返啲資料。"
+  },
+  "section_changes_heading": {
+    "message": "呢份政策嘅變更"
+  },
+  "changes_body": {
+    "message": "如果呢份政策有變更，更新內容會喺呢頁刊登，並附上修訂過嘅「最後更新」日期。"
+  },
+  "section_contact_heading": {
+    "message": "聯絡我哋"
+  },
+  "contact_body": {
+    "message": "有關呢份政策或者呢個擴充功能嘅問題，可以send去："
+  },
+  "footer_link_text": {
+    "message": "Chrome 網上應用店嘅頁面"
+  },
+  "lang_picker_label": {
+    "message": "更改語言"
+  }
+}

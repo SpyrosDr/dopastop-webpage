@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "Privacybeleid van DopaStop"
+  },
+  "last_updated_label": {
+    "message": "Laatst bijgewerkt"
+  },
+  "intro": {
+    "message": "DopaStop is een Chrome-extensie die afleidende media vervaagt en waarmee je tijdslimieten of downtime-schema's voor websites kunt instellen. Deze pagina legt uit welke gegevens DopaStop verwerkt en hoe."
+  },
+  "section_stores_heading": {
+    "message": "Wat DopaStop opslaat"
+  },
+  "stores_intro": {
+    "message": "Alle onderstaande gegevens worden lokaal op je eigen apparaat opgeslagen via de ingebouwde opslag-API's van Chrome (chrome.storage.sync en chrome.storage.local). Er worden geen gegevens verzonden naar een server van ons of van derden."
+  },
+  "stores_item_settings": {
+    "message": "Instellingen — je vervagingsvoorkeuren, sites op de whitelist, tijdslimieten per site, downtime-schema en taalkeuze."
+  },
+  "stores_item_usage": {
+    "message": "Gebruiksgegevens — voor websites die je hebt gekozen om bij te houden of te beperken, registreert DopaStop de domeinnaam (bijv. \"youtube.com\") en het aantal seconden dat je vandaag op die site hebt doorgebracht, zodat je limieten kunnen worden gehandhaafd en het tabblad Gebruik kan worden weergegeven. Deze teller wordt elke dag automatisch gereset."
+  },
+  "section_notdo_heading": {
+    "message": "Wat DopaStop niet doet"
+  },
+  "notdo_item_1": {
+    "message": "Het verzendt geen gegevens naar een externe server. Er is geen backend — alles draait en blijft binnen je browser."
+  },
+  "notdo_item_2": {
+    "message": "Het verkoopt, verhuurt of deelt je gegevens niet met derden."
+  },
+  "notdo_item_3": {
+    "message": "Het gebruikt je gegevens niet voor advertenties of voor doeleinden die geen verband houden met de kernfunctie (vervagen/limieten) van de extensie."
+  },
+  "notdo_item_4": {
+    "message": "Het registreert geen paginainhoud, zoekopdrachten, formuliergegevens of iets dat je typt."
+  },
+  "section_permissions_heading": {
+    "message": "Machtigingen"
+  },
+  "permissions_intro": {
+    "message": "DopaStop vraagt de volgende Chrome-machtigingen aan, die alleen worden gebruikt zoals beschreven:"
+  },
+  "permissions_item_storage": {
+    "message": "om je instellingen en gebruikstellers lokaal op te slaan."
+  },
+  "permissions_item_alarms": {
+    "message": "om downtime-schema's periodiek te controleren, zelfs bij inactieve tabbladen."
+  },
+  "permissions_item_activetab": {
+    "message": "om het vervagingseffect toe te passen en limieten te handhaven op de pagina die je bekijkt, aangezien de extensie moet werken op elke website die je bezoekt."
+  },
+  "section_retention_heading": {
+    "message": "Gegevensbehoud & verwijdering"
+  },
+  "retention_body": {
+    "message": "Gebruikstellers worden elke dag automatisch gereset. Alle opgeslagen gegevens (instellingen en gebruik) worden onmiddellijk verwijderd als je de extensie verwijdert, of kunnen op elk moment worden gewist via de opslaginstellingen van Chrome-extensies."
+  },
+  "section_changes_heading": {
+    "message": "Wijzigingen in dit beleid"
+  },
+  "changes_body": {
+    "message": "Als dit beleid wijzigt, wordt de update op deze pagina geplaatst met een herziene datum \"Laatst bijgewerkt\"."
+  },
+  "section_contact_heading": {
+    "message": "Contact"
+  },
+  "contact_body": {
+    "message": "Vragen over dit beleid of de extensie kunnen worden gestuurd naar:"
+  },
+  "footer_link_text": {
+    "message": "Vermelding in de Chrome Web Store"
+  },
+  "lang_picker_label": {
+    "message": "Taal wijzigen"
+  }
+}

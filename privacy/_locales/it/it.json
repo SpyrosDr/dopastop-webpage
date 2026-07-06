@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "Informativa sulla privacy di DopaStop"
+  },
+  "last_updated_label": {
+    "message": "Ultimo aggiornamento"
+  },
+  "intro": {
+    "message": "DopaStop è un'estensione Chrome che sfoca i contenuti multimediali distraenti e ti consente di impostare limiti di tempo o orari di inattività per i siti web. Questa pagina spiega quali dati gestisce DopaStop e come."
+  },
+  "section_stores_heading": {
+    "message": "Cosa memorizza DopaStop"
+  },
+  "stores_intro": {
+    "message": "Tutti i dati sottostanti vengono memorizzati localmente sul tuo dispositivo tramite le API di archiviazione integrate di Chrome (chrome.storage.sync e chrome.storage.local). Nessun dato viene inviato a un server gestito da noi o da terzi."
+  },
+  "stores_item_settings": {
+    "message": "Impostazioni — le tue preferenze di sfocatura, i siti nella whitelist, i limiti di tempo per sito, l'orario di inattività e la lingua scelta."
+  },
+  "stores_item_usage": {
+    "message": "Dati di utilizzo — per i siti che hai scelto di monitorare o limitare, DopaStop registra il nome di dominio (ad es. «youtube.com») e il numero di secondi trascorsi oggi su quel sito, per applicare i tuoi limiti e mostrarti la scheda Utilizzo. Questo contatore si azzera automaticamente ogni giorno."
+  },
+  "section_notdo_heading": {
+    "message": "Cosa non fa DopaStop"
+  },
+  "notdo_item_1": {
+    "message": "Non invia alcun dato a un server esterno. Non esiste un backend — tutto viene eseguito e rimane all'interno del tuo browser."
+  },
+  "notdo_item_2": {
+    "message": "Non vende, affitta o condivide i tuoi dati con terze parti."
+  },
+  "notdo_item_3": {
+    "message": "Non utilizza i tuoi dati per pubblicità o per scopi non correlati alla funzione principale di sfocatura/limiti dell'estensione."
+  },
+  "notdo_item_4": {
+    "message": "Non registra il contenuto delle pagine, le ricerche, i dati dei moduli o qualsiasi cosa tu digiti."
+  },
+  "section_permissions_heading": {
+    "message": "Autorizzazioni"
+  },
+  "permissions_intro": {
+    "message": "DopaStop richiede le seguenti autorizzazioni Chrome, utilizzate solo come descritto:"
+  },
+  "permissions_item_storage": {
+    "message": "per salvare le tue impostazioni e i contatori di utilizzo localmente."
+  },
+  "permissions_item_alarms": {
+    "message": "per controllare periodicamente gli orari di inattività anche su schede inattive."
+  },
+  "permissions_item_activetab": {
+    "message": "per applicare l'effetto di sfocatura e far rispettare i limiti sulla pagina che stai visualizzando, poiché l'estensione deve funzionare su qualsiasi sito web tu visiti."
+  },
+  "section_retention_heading": {
+    "message": "Conservazione ed eliminazione dei dati"
+  },
+  "retention_body": {
+    "message": "I contatori di utilizzo si azzerano automaticamente ogni giorno. Tutti i dati memorizzati (impostazioni e utilizzo) vengono eliminati immediatamente se disinstalli l'estensione, oppure possono essere cancellati in qualsiasi momento tramite le impostazioni di archiviazione delle estensioni di Chrome."
+  },
+  "section_changes_heading": {
+    "message": "Modifiche a questa informativa"
+  },
+  "changes_body": {
+    "message": "Se questa informativa cambia, l'aggiornamento verrà pubblicato in questa pagina con una data di «Ultimo aggiornamento» rivista."
+  },
+  "section_contact_heading": {
+    "message": "Contatti"
+  },
+  "contact_body": {
+    "message": "Le domande su questa informativa o sull'estensione possono essere inviate a:"
+  },
+  "footer_link_text": {
+    "message": "Scheda sul Chrome Web Store"
+  },
+  "lang_picker_label": {
+    "message": "Cambia lingua"
+  }
+}

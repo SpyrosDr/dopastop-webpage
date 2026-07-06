@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "Política de Privacidad de DopaStop"
+  },
+  "last_updated_label": {
+    "message": "Última actualización"
+  },
+  "intro": {
+    "message": "DopaStop es una extensión de Chrome que difumina contenido multimedia que distrae y te permite establecer límites de tiempo o horarios de inactividad para sitios web. Esta página explica qué datos maneja DopaStop y cómo."
+  },
+  "section_stores_heading": {
+    "message": "Qué almacena DopaStop"
+  },
+  "stores_intro": {
+    "message": "Todos los datos que se indican a continuación se almacenan localmente en tu propio dispositivo mediante las API de almacenamiento integradas de Chrome (chrome.storage.sync y chrome.storage.local). No se envía ningún dato a un servidor operado por nosotros ni por terceros."
+  },
+  "stores_item_settings": {
+    "message": "Configuración — tus preferencias de difuminado, sitios en la lista blanca, límites de tiempo por sitio, horario de inactividad y el idioma elegido."
+  },
+  "stores_item_usage": {
+    "message": "Datos de uso — para los sitios web que hayas elegido seguir o limitar, DopaStop registra el nombre de dominio (p. ej., «youtube.com») y los segundos que has pasado hoy en ese sitio, para poder aplicar tus límites y mostrarte la pestaña de Uso. Este contador se reinicia automáticamente cada día."
+  },
+  "section_notdo_heading": {
+    "message": "Qué no hace DopaStop"
+  },
+  "notdo_item_1": {
+    "message": "No envía ningún dato a un servidor externo. No hay backend — todo se ejecuta y permanece dentro de tu navegador."
+  },
+  "notdo_item_2": {
+    "message": "No vende, alquila ni comparte tus datos con terceros."
+  },
+  "notdo_item_3": {
+    "message": "No usa tus datos con fines publicitarios ni para ningún propósito ajeno a la función principal de difuminado/límites de la extensión."
+  },
+  "notdo_item_4": {
+    "message": "No registra el contenido de las páginas, búsquedas, datos de formularios ni nada que escribas."
+  },
+  "section_permissions_heading": {
+    "message": "Permisos"
+  },
+  "permissions_intro": {
+    "message": "DopaStop solicita los siguientes permisos de Chrome, utilizados únicamente como se describe:"
+  },
+  "permissions_item_storage": {
+    "message": "para guardar tu configuración y contadores de uso localmente."
+  },
+  "permissions_item_alarms": {
+    "message": "para comprobar periódicamente los horarios de inactividad incluso en pestañas inactivas."
+  },
+  "permissions_item_activetab": {
+    "message": "para aplicar el efecto de difuminado y hacer cumplir los límites en la página que estés viendo, ya que la extensión necesita funcionar en cualquier sitio web que visites."
+  },
+  "section_retention_heading": {
+    "message": "Retención y eliminación de datos"
+  },
+  "retention_body": {
+    "message": "Los contadores de uso se reinician automáticamente cada día. Todos los datos almacenados (configuración y uso) se eliminan de inmediato si desinstalas la extensión, o pueden borrarse en cualquier momento a través de la configuración de almacenamiento de extensiones de Chrome."
+  },
+  "section_changes_heading": {
+    "message": "Cambios en esta política"
+  },
+  "changes_body": {
+    "message": "Si esta política cambia, la actualización se publicará en esta página con una fecha de «Última actualización» revisada."
+  },
+  "section_contact_heading": {
+    "message": "Contacto"
+  },
+  "contact_body": {
+    "message": "Las preguntas sobre esta política o la extensión pueden enviarse a:"
+  },
+  "footer_link_text": {
+    "message": "Ficha en Chrome Web Store"
+  },
+  "lang_picker_label": {
+    "message": "Cambiar idioma"
+  }
+}

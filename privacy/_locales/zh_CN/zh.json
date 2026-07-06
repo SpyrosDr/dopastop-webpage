@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "DopaStop 隐私政策"
+  },
+  "last_updated_label": {
+    "message": "最后更新"
+  },
+  "intro": {
+    "message": "DopaStop 是一款 Chrome 扩展程序，可以模糊令人分心的媒体内容，并允许您为网站设置时间限制或休息时间安排。本页面说明了 DopaStop 处理哪些数据以及如何处理。"
+  },
+  "section_stores_heading": {
+    "message": "DopaStop 存储的内容"
+  },
+  "stores_intro": {
+    "message": "以下所有数据均使用 Chrome 内置的存储 API（chrome.storage.sync 和 chrome.storage.local）仅存储在您自己的设备上。不会向我们或任何第三方运营的服务器发送任何数据。"
+  },
+  "stores_item_settings": {
+    "message": "设置 — 您的模糊偏好设置、白名单网站、按网站设置的时间限制、休息时间安排以及语言选择。"
+  },
+  "stores_item_usage": {
+    "message": "使用数据 — 对于您选择跟踪或限制的网站，DopaStop 会记录域名（例如 \"youtube.com\"）以及您今天在该网站上花费的秒数，以便实施您的限制并在“使用情况”标签页中显示。此计数器每天会自动重置。"
+  },
+  "section_notdo_heading": {
+    "message": "DopaStop 不会做的事"
+  },
+  "notdo_item_1": {
+    "message": "它不会向任何外部服务器发送任何数据。没有后端——一切都在您的浏览器内运行并保留在其中。"
+  },
+  "notdo_item_2": {
+    "message": "它不会将您的数据出售、出租或与第三方共享。"
+  },
+  "notdo_item_3": {
+    "message": "它不会将您的数据用于广告或与扩展程序核心的模糊/限制功能无关的任何目的。"
+  },
+  "notdo_item_4": {
+    "message": "它不会记录页面内容、搜索查询、表单输入或您输入的任何内容。"
+  },
+  "section_permissions_heading": {
+    "message": "权限"
+  },
+  "permissions_intro": {
+    "message": "DopaStop 请求以下 Chrome 权限，仅按所述方式使用："
+  },
+  "permissions_item_storage": {
+    "message": "用于在本地保存您的设置和使用计数器。"
+  },
+  "permissions_item_alarms": {
+    "message": "用于定期检查休息时间安排，即使在空闲标签页中也是如此。"
+  },
+  "permissions_item_activetab": {
+    "message": "用于在您正在查看的页面上应用模糊效果并强制执行限制，因为该扩展程序需要在您访问的任何网站上运行。"
+  },
+  "section_retention_heading": {
+    "message": "数据保留与删除"
+  },
+  "retention_body": {
+    "message": "使用计数器每天会自动重置。如果您卸载该扩展程序，所有存储的数据（设置和使用情况）将立即被删除，您也可以随时通过 Chrome 扩展程序存储设置来清除这些数据。"
+  },
+  "section_changes_heading": {
+    "message": "本政策的变更"
+  },
+  "changes_body": {
+    "message": "如果本政策发生变化，更新内容将在本页面发布，并附有修订后的“最后更新”日期。"
+  },
+  "section_contact_heading": {
+    "message": "联系方式"
+  },
+  "contact_body": {
+    "message": "有关本政策或扩展程序的问题可以发送至："
+  },
+  "footer_link_text": {
+    "message": "Chrome 网上应用店列表"
+  },
+  "lang_picker_label": {
+    "message": "更改语言"
+  }
+}

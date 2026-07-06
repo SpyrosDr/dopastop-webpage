@@ -3,52 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DopaStop Privacy Policy</title>
+<title id="page_title">DopaStop Privacy Policy</title>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #222; }
   h1 { font-size: 1.6em; }
   h2 { font-size: 1.15em; margin-top: 1.6em; }
   footer { margin-top: 3em; font-size: 0.85em; color: #666; }
+  header { display: flex; justify-content: flex-end; }
+  .lang-picker { position: relative; }
+  .lang-picker-toggle { display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 50%; border: 1px solid #ccc; background: #fff; color: #333; cursor: pointer; padding: 0; }
+  .lang-picker-toggle svg { width: 18px; height: 18px; }
+  .lang-picker-toggle:hover { background: #f2f2f2; }
+  .lang-picker-menu { position: absolute; right: 0; top: 40px; margin: 0; padding: 6px 0; list-style: none; background: #fff; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); max-height: 320px; overflow-y: auto; min-width: 200px; z-index: 10; }
+  .lang-picker-menu li { padding: 8px 16px; cursor: pointer; white-space: nowrap; }
+  .lang-picker-menu li:hover, .lang-picker-menu li.active { background: #f0f0f0; }
+  html[dir="rtl"] .lang-picker-menu { right: auto; left: 0; }
 </style>
 </head>
 <body>
-  <h1>DopaStop Privacy Policy</h1>
-  <p><em>Last updated: July 6, 2026</em></p>
+  <header>
+    <div class="lang-picker" id="lang-picker">
+      <button type="button" class="lang-picker-toggle" id="lang-picker-toggle" aria-haspopup="listbox" aria-expanded="false" title="Change language">
+        <img src="./icons/globe.svg" alt="" width="18" height="18">
+      </button>
+      <ul class="lang-picker-menu" id="lang-picker-menu" role="listbox" hidden></ul>
+    </div>
+  </header>
 
-  <p>DopaStop is a Chrome extension that blurs distracting media and lets you set time limits or downtime schedules for websites. This page explains what data DopaStop handles and how.</p>
+  <h1 id="h1_title">DopaStop Privacy Policy</h1>
+  <p><em><span id="last_updated_label">Last updated</span>: 2026-07-06</em></p>
 
-  <h2>What DopaStop stores</h2>
-  <p>All data below is stored locally on your own device using Chrome's built-in storage APIs (<code>chrome.storage.sync</code> and <code>chrome.storage.local</code>). Nothing is sent to any server operated by us or anyone else.</p>
+  <p id="intro">DopaStop is a Chrome extension that blurs distracting media and lets you set time limits or downtime schedules for websites. This page explains what data DopaStop handles and how.</p>
+
+  <h2 id="section_stores_heading">What DopaStop stores</h2>
+  <p id="stores_intro">All data below is stored locally on your own device using Chrome's built-in storage APIs (chrome.storage.sync and chrome.storage.local). Nothing is sent to any server operated by us or anyone else.</p>
   <ul>
-    <li><strong>Settings</strong> — your blur preferences, whitelisted sites, site time limits, downtime schedule, and language choice.</li>
-    <li><strong>Usage data</strong> — for websites you've chosen to track or limit, DopaStop records the domain name (e.g. "youtube.com") and the number of seconds spent on that site today, so it can enforce your limits and show you the Usage tab. This counter resets automatically every day.</li>
+    <li id="stores_item_settings">Settings — your blur preferences, whitelisted sites, site time limits, downtime schedule, and language choice.</li>
+    <li id="stores_item_usage">Usage data — for websites you've chosen to track or limit, DopaStop records the domain name (e.g. "youtube.com") and the number of seconds spent on that site today, so it can enforce your limits and show you the Usage tab. This counter resets automatically every day.</li>
   </ul>
 
-  <h2>What DopaStop does not do</h2>
+  <h2 id="section_notdo_heading">What DopaStop does not do</h2>
   <ul>
-    <li>It does not send any data to an external server. There is no backend — everything runs and stays inside your browser.</li>
-    <li>It does not sell, rent, or share your data with third parties.</li>
-    <li>It does not use your data for advertising or any purpose unrelated to the extension's core blur/limit functionality.</li>
-    <li>It does not record page content, search queries, form input, or anything you type.</li>
+    <li id="notdo_item_1">It does not send any data to an external server. There is no backend — everything runs and stays inside your browser.</li>
+    <li id="notdo_item_2">It does not sell, rent, or share your data with third parties.</li>
+    <li id="notdo_item_3">It does not use your data for advertising or any purpose unrelated to the extension's core blur/limit functionality.</li>
+    <li id="notdo_item_4">It does not record page content, search queries, form input, or anything you type.</li>
   </ul>
 
-  <h2>Permissions</h2>
-  <p>DopaStop requests the following Chrome permissions, used only as described:</p>
+  <h2 id="section_permissions_heading">Permissions</h2>
+  <p id="permissions_intro">DopaStop requests the following Chrome permissions, used only as described:</p>
   <ul>
-    <li><strong>storage</strong> — to save your settings and usage counters locally.</li>
-    <li><strong>alarms</strong> — to periodically check downtime schedules even on idle tabs.</li>
-    <li><strong>activeTab</strong> and access to all sites — to apply the blur effect and enforce limits on whichever page you're viewing, since the extension needs to work on any website you visit.</li>
+    <li><code>storage</code> — <span id="permissions_item_storage">to save your settings and usage counters locally.</span></li>
+    <li><code>alarms</code> — <span id="permissions_item_alarms">to periodically check downtime schedules even on idle tabs.</span></li>
+    <li><code>activeTab</code> + host permissions — <span id="permissions_item_activetab">to apply the blur effect and enforce limits on whichever page you're viewing, since the extension needs to work on any website you visit.</span></li>
   </ul>
 
-  <h2>Data retention & deletion</h2>
-  <p>Usage counters reset every day automatically. All stored data (settings and usage) is deleted immediately if you uninstall the extension, or can be cleared any time via Chrome's extension storage settings.</p>
+  <h2 id="section_retention_heading">Data retention & deletion</h2>
+  <p id="retention_body">Usage counters reset every day automatically. All stored data (settings and usage) is deleted immediately if you uninstall the extension, or can be cleared any time via Chrome's extension storage settings.</p>
 
-  <h2>Changes to this policy</h2>
-  <p>If this policy changes, the update will be posted on this page with a revised "Last updated" date.</p>
+  <h2 id="section_changes_heading">Changes to this policy</h2>
+  <p id="changes_body">If this policy changes, the update will be posted on this page with a revised "Last updated" date.</p>
 
-  <h2>Contact</h2>
-  <p>Questions about this policy or the extension can be sent to <a href="mailto:spyridon.drakopoulos@gmail.com">spyridon.drakopoulos@gmail.com</a>.</p>
+  <h2 id="section_contact_heading">Contact</h2>
+  <p id="contact_body">Questions about this policy or the extension can be sent to:</p>
+  <p><a href="mailto:spyridon.drakopoulos@gmail.com">spyridon.drakopoulos@gmail.com</a></p>
 
-  <footer>DopaStop — <a href="https://chromewebstore.google.com/detail/dopastop-control-your-dop/cjookkbodblfiocnoihopapplnpcjflf" target="_blank">Chrome Web Store listing</a></footer>
+  <footer>DopaStop — <a href="https://chromewebstore.google.com/detail/dopastop-control-your-dop/cjookkbodblfiocnoihopapplnpcjflf" target="_blank"><span id="footer_link_text">Chrome Web Store listing</span></a></footer>
+
+  <script src="./privacy.js"></script>
 </body>
 </html>

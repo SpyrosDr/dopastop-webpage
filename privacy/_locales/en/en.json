@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "DopaStop Privacy Policy"
+  },
+  "last_updated_label": {
+    "message": "Last updated"
+  },
+  "intro": {
+    "message": "DopaStop is a Chrome extension that blurs distracting media and lets you set time limits or downtime schedules for websites. This page explains what data DopaStop handles and how."
+  },
+  "section_stores_heading": {
+    "message": "What DopaStop stores"
+  },
+  "stores_intro": {
+    "message": "All data below is stored locally on your own device using Chrome's built-in storage APIs (chrome.storage.sync and chrome.storage.local). Nothing is sent to any server operated by us or anyone else."
+  },
+  "stores_item_settings": {
+    "message": "Settings — your blur preferences, whitelisted sites, site time limits, downtime schedule, and language choice."
+  },
+  "stores_item_usage": {
+    "message": "Usage data — for websites you've chosen to track or limit, DopaStop records the domain name (e.g. \"youtube.com\") and the number of seconds spent on that site today, so it can enforce your limits and show you the Usage tab. This counter resets automatically every day."
+  },
+  "section_notdo_heading": {
+    "message": "What DopaStop does not do"
+  },
+  "notdo_item_1": {
+    "message": "It does not send any data to an external server. There is no backend — everything runs and stays inside your browser."
+  },
+  "notdo_item_2": {
+    "message": "It does not sell, rent, or share your data with third parties."
+  },
+  "notdo_item_3": {
+    "message": "It does not use your data for advertising or any purpose unrelated to the extension's core blur/limit functionality."
+  },
+  "notdo_item_4": {
+    "message": "It does not record page content, search queries, form input, or anything you type."
+  },
+  "section_permissions_heading": {
+    "message": "Permissions"
+  },
+  "permissions_intro": {
+    "message": "DopaStop requests the following Chrome permissions, used only as described:"
+  },
+  "permissions_item_storage": {
+    "message": "to save your settings and usage counters locally."
+  },
+  "permissions_item_alarms": {
+    "message": "to periodically check downtime schedules even on idle tabs."
+  },
+  "permissions_item_activetab": {
+    "message": "to apply the blur effect and enforce limits on whichever page you're viewing, since the extension needs to work on any website you visit."
+  },
+  "section_retention_heading": {
+    "message": "Data retention & deletion"
+  },
+  "retention_body": {
+    "message": "Usage counters reset every day automatically. All stored data (settings and usage) is deleted immediately if you uninstall the extension, or can be cleared any time via Chrome's extension storage settings."
+  },
+  "section_changes_heading": {
+    "message": "Changes to this policy"
+  },
+  "changes_body": {
+    "message": "If this policy changes, the update will be posted on this page with a revised \"Last updated\" date."
+  },
+  "section_contact_heading": {
+    "message": "Contact"
+  },
+  "contact_body": {
+    "message": "Questions about this policy or the extension can be sent to:"
+  },
+  "footer_link_text": {
+    "message": "Chrome Web Store listing"
+  },
+  "lang_picker_label": {
+    "message": "Change language"
+  }
+}

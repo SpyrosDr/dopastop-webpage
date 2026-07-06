@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "DopaStop プライバシーポリシー"
+  },
+  "last_updated_label": {
+    "message": "最終更新日"
+  },
+  "intro": {
+    "message": "DopaStopは、気を散らすメディアをぼかし、ウェブサイトの利用時間制限やダウンタイムのスケジュールを設定できるChrome拡張機能です。このページでは、DopaStopが扱うデータとその方法について説明します。"
+  },
+  "section_stores_heading": {
+    "message": "DopaStopが保存する情報"
+  },
+  "stores_intro": {
+    "message": "以下のデータはすべて、Chromeの組み込みストレージAPI（chrome.storage.syncおよびchrome.storage.local）を使用して、お使いのデバイス上にのみローカルに保存されます。当社や第三者が運営するサーバーにデータが送信されることはありません。"
+  },
+  "stores_item_settings": {
+    "message": "設定 — ぼかしの設定、ホワイトリストに登録したサイト、サイトごとの利用時間制限、ダウンタイムのスケジュール、言語選択。"
+  },
+  "stores_item_usage": {
+    "message": "利用データ — 追跡または制限するように選択したウェブサイトについて、DopaStopはドメイン名（例：「youtube.com」）とそのサイトで今日過ごした秒数を記録し、制限の適用と「利用状況」タブの表示に使用します。このカウンターは毎日自動的にリセットされます。"
+  },
+  "section_notdo_heading": {
+    "message": "DopaStopが行わないこと"
+  },
+  "notdo_item_1": {
+    "message": "外部サーバーへのデータ送信は一切行いません。バックエンドは存在せず、すべてはお使いのブラウザ内でのみ実行・保持されます。"
+  },
+  "notdo_item_2": {
+    "message": "お客様のデータを第三者に販売、貸与、共有することはありません。"
+  },
+  "notdo_item_3": {
+    "message": "拡張機能の中核機能（ぼかし・制限）と無関係な目的や広告のためにデータを使用することはありません。"
+  },
+  "notdo_item_4": {
+    "message": "ページの内容、検索クエリ、フォームの入力内容、その他入力した内容を記録することはありません。"
+  },
+  "section_permissions_heading": {
+    "message": "権限"
+  },
+  "permissions_intro": {
+    "message": "DopaStopは以下のChromeの権限をリクエストしますが、記載された用途のみに使用します："
+  },
+  "permissions_item_storage": {
+    "message": "設定と利用カウンターをローカルに保存するため。"
+  },
+  "permissions_item_alarms": {
+    "message": "アイドル状態のタブでもダウンタイムのスケジュールを定期的に確認するため。"
+  },
+  "permissions_item_activetab": {
+    "message": "表示しているページにぼかし効果を適用し制限を適用するため。拡張機能は訪問するあらゆるウェブサイトで動作する必要があります。"
+  },
+  "section_retention_heading": {
+    "message": "データの保持と削除"
+  },
+  "retention_body": {
+    "message": "利用カウンターは毎日自動的にリセットされます。保存されたすべてのデータ（設定と利用状況）は、拡張機能をアンインストールすると即座に削除されるほか、Chromeの拡張機能ストレージ設定からいつでも削除できます。"
+  },
+  "section_changes_heading": {
+    "message": "本ポリシーの変更"
+  },
+  "changes_body": {
+    "message": "本ポリシーが変更された場合、更新された「最終更新日」とともに本ページに掲載されます。"
+  },
+  "section_contact_heading": {
+    "message": "お問い合わせ"
+  },
+  "contact_body": {
+    "message": "本ポリシーまたは拡張機能に関するご質問は、以下までお送りください："
+  },
+  "footer_link_text": {
+    "message": "Chromeウェブストアの掲載ページ"
+  },
+  "lang_picker_label": {
+    "message": "言語を変更"
+  }
+}

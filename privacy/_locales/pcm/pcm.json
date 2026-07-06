@@ -1,0 +1,77 @@
+{
+  "page_title": {
+    "message": "DopaStop Privacy Policy"
+  },
+  "last_updated_label": {
+    "message": "Last time wey e update"
+  },
+  "intro": {
+    "message": "DopaStop na Chrome extension wey dey blur media wey fit distract you, e go make you fit set time limit or downtime schedule for websites. Dis page go explain the data wey DopaStop dey handle and how e dey do am."
+  },
+  "section_stores_heading": {
+    "message": "Wetin DopaStop dey store"
+  },
+  "stores_intro": {
+    "message": "All the data wey dey below na inside your own device dem dey store am, using Chrome storage API wey don already dey inside (chrome.storage.sync and chrome.storage.local). No data no dey send go any server wey we or third party dey run."
+  },
+  "stores_item_settings": {
+    "message": "Settings — your blur wahala settings, sites wey you whitelist, time limit for each site, downtime schedule, and language wey you pick."
+  },
+  "stores_item_usage": {
+    "message": "Usage data — for websites wey you don choose make DopaStop track or limit, e go record the domain name (like \"youtube.com\") and the number of seconds wey you spend for that site today, so e fit enforce your limit and show you the Usage tab. Dis counter dey reset by im own every day."
+  },
+  "section_notdo_heading": {
+    "message": "Wetin DopaStop no dey do"
+  },
+  "notdo_item_1": {
+    "message": "E no dey send any data go outside server. No backend dey — everything dey run and dey stay inside your browser."
+  },
+  "notdo_item_2": {
+    "message": "E no dey sell, rent, or share your data give any third party."
+  },
+  "notdo_item_3": {
+    "message": "E no dey use your data for advert or for any other thing wey no relate to the main blur/limit work wey the extension dey do."
+  },
+  "notdo_item_4": {
+    "message": "E no dey record page content, wetin you search, form input, or anything wey you type."
+  },
+  "section_permissions_heading": {
+    "message": "Permissions"
+  },
+  "permissions_intro": {
+    "message": "DopaStop dey ask for dis Chrome permissions, wey e dey use only as e don explain am:"
+  },
+  "permissions_item_storage": {
+    "message": "so e fit save your settings and usage counter inside your device."
+  },
+  "permissions_item_alarms": {
+    "message": "so e fit dey check downtime schedule small small, even for tabs wey no dey active."
+  },
+  "permissions_item_activetab": {
+    "message": "so e fit apply the blur effect and enforce limit for whichever page wey you dey view, because the extension need work for any website wey you visit."
+  },
+  "section_retention_heading": {
+    "message": "How data dey stay & how e dey delete"
+  },
+  "retention_body": {
+    "message": "Usage counter dey reset by im own every day. All the data wey dem store (settings and usage) go delete sharp sharp if you uninstall the extension, or you fit clear am anytime through Chrome extension storage settings."
+  },
+  "section_changes_heading": {
+    "message": "Wetin fit change for dis policy"
+  },
+  "changes_body": {
+    "message": "If dis policy change, we go post the update for dis page with new \"Last time wey e update\" date."
+  },
+  "section_contact_heading": {
+    "message": "Contact"
+  },
+  "contact_body": {
+    "message": "If you get question about dis policy or the extension, you fit send am go:"
+  },
+  "footer_link_text": {
+    "message": "Listing for Chrome Web Store"
+  },
+  "lang_picker_label": {
+    "message": "Change language"
+  }
+}
